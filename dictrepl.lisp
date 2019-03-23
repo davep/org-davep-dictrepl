@@ -2,7 +2,6 @@
 ;;
 ;; dictrepl.lisp --- Main code for org-davep-dictrepl.
 ;; Copyright 2003,2004 by Dave Pearson <davep@davep.org>
-;; $Revision: 1.3 $
 ;;
 ;; This software is Copyright (C) Dave Pearson <davep@davep.org> 2003, 2004.
 ;;
