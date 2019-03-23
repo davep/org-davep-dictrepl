@@ -18,7 +18,7 @@
 ;;
 ;; You can always find the latest version of this code at:
 ;;
-;;   <URL:http://www.davep.org/lisp/#org-davep-dictrepl>
+;;   <URL:https://github.com/davep/org-davep-dictrepl>
 
 ;;; Code:
 
@@ -43,7 +43,7 @@
 Optionally format the output with the function given to the FORMATTER keyword."
   (declare (type function formatter))
   (mapc formatter (data data)))
-  
+
 (defun repl-info-list (data)
   "Show the value of DATA as a name/description formatted list."
   (repl-list data
@@ -95,7 +95,7 @@ Optionally format the output with the function given to the FORMATTER keyword."
               (format t "~&Invalid database, use \"dbs\" for list.~%")
             (format t "~&~A~%" (response info)))))
     (format t "~&Please provide the name of a database.")))
-  
+
 (defmacro with-reconnect (client &body body)
   "Force a reconnect to CLIENT after BODY has been evaluated."
   `(prog1

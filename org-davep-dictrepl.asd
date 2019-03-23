@@ -18,7 +18,7 @@
 ;;
 ;; You can always find the latest version of this code at:
 ;;
-;;   <URL:http://www.davep.org/lisp/#org-davep-dictrepl>
+;;   <URL:https://github.com/davep/org-davep-dictrepl>
 
 (defpackage #:org-davep-dictrepl-system
   (:use #:common-lisp #:asdf))
